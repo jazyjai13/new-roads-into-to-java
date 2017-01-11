@@ -4,8 +4,16 @@ public class CardTester{
   //main method for testing
   public static void main(String[] args){
     
+    //Card card = new Card("red", "diamonds", '8');
+    //System.out.println(card);
+    
+    RedCard rCard = new RedCard();
+    System.out.println(rCard); 
+    
+    BlackCard bCard = new BlackCard();
+    System.out.println(bCard);
     //main method for testing
-    Card c = new Card(); 
+    /*Card c = new Card(); 
     
     c.setColor("black");
     c.setSuit("spades");
@@ -52,7 +60,7 @@ public class CardTester{
    c5.setRank('A');
  
   System.out.println(c5.toString());
-  
+  */
   }
-  
+ 
 }//end of class
