@@ -4,12 +4,9 @@ public class EquationTester{
      
      Equation e = new Equation();
      
-     e.setOperator('+');
-     e.setVariable1('x');
-     e.setVariable2('y');
-     e.setEquals('=');
-     e.setNumber(2);
+     e.addTerm(2, 'x', 4);
      
       System.out.println(e.toString());
    }
 }
+
