@@ -9,7 +9,7 @@ public class DerivativeTester{
     
     System.out.println(e.toString());
     
-    Inverse in = new Derivative();
+    Derivative in = new Derivative();
     
     in.setE(e);
     

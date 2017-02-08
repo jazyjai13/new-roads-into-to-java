@@ -1,22 +1,26 @@
 public class Derivative{
 
-  private Derivative e = new Derivative();
+  private Equation e = new Equation();
   
   public Derivative(){
     
   }
   
-  public Derivative getDerivative(){
+  public Equation getEquation(){
     return e;
   }
   
-     public void setE(Derivative newE){
+  public Equation getE(){
+    return e;
+  }
+  
+     public void setE(Equation newE){
     e = newE;
   }
   
   public String getDerivative(){
     Term term = e.getTerm(0);
     
-    return "x=" + term.getCoefficient() + "y^" + term.getPpower();
+    return "x=" + term.getCoefficient() + "y^" + term.getPower();
    }
  }
