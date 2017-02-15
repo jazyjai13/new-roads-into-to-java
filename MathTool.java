@@ -20,8 +20,12 @@ public class MathTool{
       char var = input.next().charAt(0);
       System.out.println("give the power");
       int pow = input.nextInt();
+      System.out.println("give the opperator");
+      char opperator = input.next().charAt(0);
       
-      equation.addTerm(cof, var, pow);
+      equation.addTerm(opperator, cof, var, pow);
+      
+      System.out.println("enter in the next term");
     }
     
     System.out.println(equation);

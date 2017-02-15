@@ -8,8 +8,8 @@ public class Equation{
     
   }
   
-  public void addTerm(int coefficient, char variable, int power){
-    list.add(new Term(coefficient, variable, power));
+  public void addTerm(char opperator, int coefficient, char variable, int power){
+    list.add(new Term(opperator, coefficient, variable, power));
   }
   
   public Term getTerm(int index){

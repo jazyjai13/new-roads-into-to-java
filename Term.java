@@ -1,5 +1,6 @@
 public class Term{
 
+private char opperator;
 private int coefficient;
 private char variable;
 private int power;
@@ -9,12 +10,20 @@ public Term(){
   
 }
 
-public Term(int newCoefficient, char newVariable, int newPower){
-
+public Term(char newOpperator, int newCoefficient, char newVariable, int newPower){
+opperator = newOpperator;
 coefficient = newCoefficient;
 variable = newVariable;
 power = newPower;
 }
+  
+  public int getOpperator(){
+    return opperator;
+  }
+  
+  public void setOpperator(char newOpperator){
+    opperator = newOpperator;
+  }
   
   public int getCoefficient(){
     return coefficient;
@@ -42,7 +51,7 @@ power = newPower;
   
    
   public String toString(){
-    return coefficient + "" + variable + "^" + power + " ";
+    return opperator + " " + coefficient + "" + variable + "^" + power + " ";
   }
   
 }
