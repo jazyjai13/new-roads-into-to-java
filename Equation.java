@@ -12,6 +12,10 @@ public class Equation{
     list.add(new Term(opperator, coefficient, variable, power));
   }
   
+  public void addTerm(Term term){
+    list.addt(term);
+  }
+  
   public Term getTerm(int index){
     return list.get(index);
   }

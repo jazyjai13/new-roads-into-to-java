@@ -13,7 +13,7 @@ public class TermTester{
    t2.setVariable('x');
    t2.setPower(-3);
      
-   //System.out.println(t.toString());
+  System.out.println(t.toString());
    
    Equation eq = new Equation();
    
@@ -22,7 +22,7 @@ public class TermTester{
    
    System.out.println(eq);
    
-   System.out.println("Coefficent of first term: " + eq.getTerm(0));
+   System.out.println("Coefficent of first term: " + eq.getTerm(0).getCoefficient());
    
    
    

@@ -17,7 +17,7 @@ variable = newVariable;
 power = newPower;
 }
   
-  public int getOpperator(){
+  public char getOpperator(){
     return opperator;
   }
   
@@ -51,7 +51,7 @@ power = newPower;
   
    
   public String toString(){
-    return opperator + " " + coefficient + "" + variable + "^" + power + " ";
+    return opperator + coefficient + "" + variable + "^" + power + " ";
   }
   
 }

@@ -5,7 +5,7 @@ public class DerivativeTester{
     
     Equation e = new Equation();
      
-    e.addTerm(2, 'x', 4);
+    e.addTerm('+',2,'x',4);
     
     System.out.println(e.toString());
     
