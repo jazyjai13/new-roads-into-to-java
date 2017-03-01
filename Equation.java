@@ -13,7 +13,7 @@ public class Equation{
   }
   
   public void addTerm(Term term){
-    list.addt(term);
+    list.add(term);
   }
   
   public Term getTerm(int index){

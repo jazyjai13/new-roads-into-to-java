@@ -5,7 +5,20 @@ public class MathTool{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("This is the Math Tool! Enter the number of terms you will use");
+    System.out.println("                .........................  ");
+    System.out.println("                :                       :  ");
+    System.out.println("                :    I N V E R S E S    :  ");
+    System.out.println("                :                       :  ");
+    System.out.println("                :.......................:  ");
+    System.out.println("                             ");
+    System.out.println("                HOW TO INPUT YOUR FUNCTION:  ");
+    System.out.println("      -------------------------------------------------");
+    System.out.println("              1. You may use up to five terms. ");
+    System.out.println("  2. You may use addition, subtraction, multiplivation or division. ");
+    System.out.println("         ");
+    System.out.println(" ");
+    System.out.println(" ");
+    System.out.println("Welcome to the Math Tool! Enter the number of terms you will use");
 
       int numTerm = input.nextInt();
 

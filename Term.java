@@ -51,7 +51,7 @@ power = newPower;
   
    
   public String toString(){
-    return opperator + coefficient + "" + variable + "^" + power + " ";
+    return coefficient + "" + variable + "^" + power + " " + opperator;
   }
   
 }
